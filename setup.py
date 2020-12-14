@@ -626,7 +626,7 @@ INSTALL_REQUIREMENTS = [
     'iso8601>=0.1.12',
     'jinja2>=2.10.1, <2.12.0',
     'json-merge-patch==0.2',
-    'jsonschema~=3.0',
+    'jsonschema',
     'lazy_object_proxy<1.5.0',  # Required to keep pip-check happy with astroid
     'markdown>=2.5.2, <3.0',
     'marshmallow-sqlalchemy>=0.16.1, <0.24.0;python_version>="3.6"',
